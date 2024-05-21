@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jokiintugas_ku - Kontak</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .navbar {
+            background: darkcyan;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 12.5px 3px;
+            text-decoration: none;
+            font-size: 19px;
+            margin-left: 10px;
+            margin-top: 2px;
+        }
+
+        .navbar a:hover {
+            color: yellow;
+            transition: .2s ease;
+        }
+
+        .contact-container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .contact-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 50px;
+            color: white;
+            margin-bottom: 5px;
+            background: orangered;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            border-radius: 100px 5px 100px;
+            font-weight: bold;
+        }
+
+        .contact-card a {
+            display: block;
+            margin: 10px 0;
+            text-decoration: none;
+            color: darkcyan;
+            font-size: 19px;
+        }
+
+        .contact-card a:hover {
+            color: darkorange;
+        }
+
+        .contact-icon {
+            width: 55px;
+            height: 55px;
+            vertical-align: middle;
+            margin-right: 10px;
+            object-fit: cover;
+        }
+
+        .footer {
+            background: darkcyan;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="produk.html">Produk</a>
+        <a href="metodep.html">M.Pembayaran</a>
+        <a href="kontak.html">Kontak</a>
+    </div>
+
+    <h1>Kontak Kami</h1>
+
+    <div class="contact-container">
+        <div class="contact-card">
+            <a href="https://wa.me/082311301447" target="_blank">
+                <img src="social_media_logo_whatsapp_icon-icons.com_59066.png" alt="WhatsApp" class="contact-icon">
+                WhatsApp
+            </a>
+            <a href="https://instagram.com/jokiintugassku" target="_blank">
+                <img src="instagram_social_media_logo_icon-icons.com_59058.png" alt="Instagram" class="contact-icon">
+                Instagram
+            </a>
+            <a href="https://facebook.com/jokiintugassku" target="_blank">
+                <img src="social_media_logo_facebook_icon-icons.com_59059.png" alt="Facebook" class="contact-icon">
+                Facebook
+            </a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Jokiintugassku. #bukankalengkaleng</p>
+    </div>
+</body>
+
+</html>
